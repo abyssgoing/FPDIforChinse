@@ -15,7 +15,7 @@ namespace setasign\Fpdi;
  *
  * This class adds a templating feature to FPDF.
  */
-class FpdfTpl extends \FPDF
+class FpdfTpl extends PDF_Chinese
 {
     use FpdfTplTrait;
 }
